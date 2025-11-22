@@ -27,3 +27,6 @@ Single-player neon endless runner for Telegram Mini Apps.
 - PlayerId, username, avatar, groupId fetched via Telegram WebApp API.
 - Scores are stored per-group; same player in another group shows 0 unless they play there.
 - No live multiplayer; concurrent single-player runs are supported.
+
+
+💳 Credit:- Darian🌀
