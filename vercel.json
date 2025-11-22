@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "backend/api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/submitScore", "dest": "backend/api/submitScore.js" },
+    { "src": "/api/getLeaderboard", "dest": "backend/api/getLeaderboard.js" },
+    { "src": "/(.*)", "dest": "frontend/$1" }
+  ]
+}
