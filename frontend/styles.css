@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background: #0a0a0f;
+  color: #fff;
+  font-family: 'Orbitron', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 120px;
+}
+
+.menu h1 {
+  color: #0ff;
+  text-shadow: 0 0 15px #f0f;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #9af3ff;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+
+.menu button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #111;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #0ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu button:hover {
+  background: #0ff;
+  color: #111;
+}
+
+#leaderboard h2 {
+  margin-top: 40px;
+  color: #0ff;
+  text-shadow: 0 0 12px #f0f;
+}
+
+#leaderboard ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 360px;
+  text-align: left;
+}
+
+#leaderboard li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #222;
+  display: flex;
+  justify-content: space-between;
+}
+
+#leaderboard button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  font-size: 16px;
+  background: #111;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#game {
+  margin: 0 auto;
+  width: 400px;
+  height: 600px; /* portrait mode */
+}
+
+#footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
